@@ -49,7 +49,8 @@ java -cp bin Main
 SwingCalculator/
 ├─ src/
 │ ├─ Main.java
-│ ├─ Calculator.java
+│ ├─ Calculator.java<img width="364" height="544" alt="Screenshot From 2025-12-05 20-06-44" src="https://github.com/user-attachments/assets/7115acba-ab7a-4572-a7ef-a5bdf41e8622" />
+
 │ ├─ ButtonHandler.java (optional)
 │ └─ UI components (as needed)
 ├─ bin/
@@ -65,6 +66,7 @@ SwingCalculator/
 - Implementing **ActionListener** for event handling  
 - Structuring GUI applications cleanly  
 - Practicing Git & GitHub version control workflow  
+<img width="364" height="544" alt="Screenshot From 2025-12-05 20-06-44" src="https://github.com/user-attachments/assets/4d0e44c5-fb85-43d7-977d-d6b69ba72fbe" />
 
 ---
 
