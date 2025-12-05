@@ -28,13 +28,17 @@ public class calculator extends javax.swing.JFrame {
              del.addMouseListener(new MouseAdapter(){
                 public void mouseClicked(MouseEvent e)
                     {
-
+                        
                     }
             });
               square.addMouseListener(new MouseAdapter(){
                 public void mouseClicked(MouseEvent e)
                     {
-                       
+                       num = field.getText();
+                       a = Double.parseDouble(num);
+                       int x = (int)a;
+                       int result = x*x;
+                       field.setText(String.valueOf(result));
                     }
             });
                cube.addMouseListener(new MouseAdapter(){
