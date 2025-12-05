@@ -35,8 +35,7 @@ public class calculator extends javax.swing.JFrame {
                 public void mouseClicked(MouseEvent e)
                     {
                        num = field.getText();
-                       a = Double.parseDouble(num);
-                       int x = (int)a;
+                       int x = Integer.valueOf(num);
                        int result = x*x;
                        field.setText(String.valueOf(result));
                     }
@@ -44,7 +43,10 @@ public class calculator extends javax.swing.JFrame {
                cube.addMouseListener(new MouseAdapter(){
                 public void mouseClicked(MouseEvent e)
                     {
-
+                        num = field.getText();
+                       int x = Integer.valueOf(num);
+                       int result = (x*x)*x;
+                       field.setText(String.valueOf(result));
                     }
             });
                 plus.addMouseListener(new MouseAdapter(){
